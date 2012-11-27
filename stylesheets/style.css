@@ -88,9 +88,9 @@ td { vertical-align: top; }
 .plus { -webkit-transform: rotate(0deg); }
 .ex { -webkit-transform: rotate(-45deg); }
 
-.icon-picture.out { top: -265px; -webkit-transform: rotate(-720deg); }
-.icon-people.out { top: -251px; left: 91px; -webkit-transform: rotate(-720deg); }
-.icon-place.out { top: -213px; left: 167px; -webkit-transform: rotate(-720deg); }
-.icon-music.out { top: -153px; left: 227px; -webkit-transform: rotate(-720deg); }
-.icon-thought.out { top: -77px; left: 265px; -webkit-transform: rotate(-720deg); }
-.icon-sleep.out { left: 279px; -webkit-transform: rotate(-720deg); }
+.icon-github.out { top: -265px; -webkit-transform: rotate(-720deg); }
+.icon-gplus.out { top: -251px; left: 91px; -webkit-transform: rotate(-720deg); }
+.icon-twitter.out { top: -213px; left: 167px; -webkit-transform: rotate(-720deg); }
+.icon-linkedin.out { top: -153px; left: 227px; -webkit-transform: rotate(-720deg); }
+.icon-facebook.out { top: -77px; left: 265px; -webkit-transform: rotate(-720deg); }
+.icon-pinterest.out { left: 279px; -webkit-transform: rotate(-720deg); }
