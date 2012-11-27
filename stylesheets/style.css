@@ -63,13 +63,13 @@ td { vertical-align: top; }
 
 
 
-  #add-moment { position: absolute; bottom: 30px; left: 30px; margin: 0; padding: 0; width: 104px; height: 104px; }
+  #add-moment { position: absolute; bottom: -100px; left: 3px; margin: 0; padding: 0; width: 104px; height: 104px; }
 
     #plus-ex {
       position: absolute;
       bottom: 0;
       left: 0;
-      z-index: 9000;
+      z-index: 900;
       -webkit-transition: all .3s ease; }
 
     #add-moment ul { margin: 0; padding: 0; position: absolute; top: 10px; left: 10px }
