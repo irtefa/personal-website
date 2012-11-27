@@ -288,6 +288,11 @@ list-style-type: none;
  #hideme {
  	color: #ffffff;
  }
-
+  #hideme ul {
+ 	color: #ffffff;
+ }
+ #hideme ul li{
+ 	color: #ffffff;
+ }
 
 
