@@ -4,6 +4,7 @@ $(document).ready(function(){
     $(".contact-text").css('display', 'none');
 
   $(".about").click(function(){
+    $(".about-text").css('display', 'block');
     $(".projects-text").css('display', 'none');
     $(".jobs-text").css('display', 'none');
     $(".contact-text").css('display', 'none');
