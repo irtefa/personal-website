@@ -1,84 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-<link rel="stylesheet" type="text/css" href="stylesheets/synhigh.css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata' rel='stylesheet' type='text/css'>
-<link href="http://irtefa.com/" type="application/atom+xml" rel="alternate" title="Mohd Irtefa ATOM Feed"/>
-<title>Mohd Irtefa</title>
-<meta charset="utf-8"/>
+    <title>Mohd Irtefa's personal website</title>
+    <meta name='author' content='Mohd Irtefa'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+    <link rel='stylesheet' href='stylesheets/skeleton.css'>
+    <link rel='stylesheet' href='stylesheets/base.css'>
+    <link rel='stylesheet' href='stylesheets/layout.css'>
+    <link rel='stylesheet' href='stylesheets/custom.css'>
 </head>
 <body>
-<section id="sidebar">
-<figure id="user_logo">
-<a href="index.html"><div class="logo">&nbsp;</div></a>
-</figure>
-<div class="user_meta">
-<h1 id="user"><a href="index.html" class="">Mohd Irtefa</a></h1>
-<h2></h2>
-<ul>
-<li><a href="index.html">about me</a></li>
-<li><a href="thoughts.html">thoughts</a></li>
-<li><a href="projects.html">projects</a></li>
-<li><a href="https://twitter.com/irtefa1">@irtefa1</a></li>
-<li><a href="https://linkedin.com/in/irtefa">linkedin</a></li>
-<li><a href="https://github.com/irtefa">github</a></li>
-<li><a href="mailto:irtefa.fall2010 at gmail.com">email</a></li>
-</ul>
-</div>
-<footer>
-<address>
-Inspired by <a href="http://svbtle.com">svbtle</a>.
-</address>
-</footer>
-</section>
-<section id="posts">
-<header>
-<h1>Mohd Irtefa's blog</h1>
-<h3>
-<script type="text/javascript">var currentDate=new Date();var day=currentDate.getDate();var monthNames=["Jan","Feb","Mar","Apr","May","June","July","Aug","Sep","Oct","Nov","Dec"];var month=monthNames[currentDate.getMonth()].toUpperCase();var year=currentDate.getFullYear();document.write(month+" "+day+", "+year);</script>
-</h3>
-</header>
-<dl>
-<ol>
-<li>
-<abbr class="published" title="2013-03-24T00:00:00">March 24, 2013</abbr>
-<div class="entry-content"> 
-    <p>
-    <h2 class="title">
-        <a href="#">Distributed logging server in Go</a>
-    </h2>
-    <p>Description</p>
-    </p>
-    <p>
-    <h2 class="title">
-        <a href="http://irtefanoid.herokuapp.com">Irtefanoid</a>
-    </h2>
-    <p>Description</p>
-    </p>
-    <p>
-    <h2 class="title">
-        <a href="http://fitquo.herokuapp.com">Fitquo</a>
-    </h2>
-    <p>Description</p>
-    </p>
-    <p>
-    <h2 class="title">
-        <a href="http://fitquo.herokuapp.com">Sentipede</a>
-    </h2>
-    <p>Description</p>
-    </p>
-    <p>
-    <h2 class="title">
-        <a href="http://fitquo.herokuapp.com">Golpo</a>
-    </h2>
-    <p>Description</p>
-    </p>
-</div>
-</li>
-<li>
-</section>
-<script type="text/javascript">var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
-<script type="text/javascript">try{var pageTracker=_gat._getTracker("UA-29827268-2");pageTracker._trackPageview();}catch(err){}</script>
+<body id='body-background' class='container'>
+    <header id='header' class='sixteen columns'>
+        <nav id='top-navbar' class='sixteen columns alpha'>
+            <a id='navbar-elem' href='index.html'>Home</a>
+            <a id='navbar-elem' href='projects.html'>Projects</a>
+            <a id='navbar-elem' href='thoughts.html'>Thoughts</a>
+            <a id='navbar-elem' href='work.html'>Work</a>
+            <a id='navbar-elem' href='http://github.com/irtefa' target='_blank'>GITHUB</a>
+            <a id='navbar-elem' href='http://linkedin.com/in/irtefa' target='_blank'>LINKEDIN</a>
+            <a id='navbar-elem' href='contact.html'>Contact</a>
+        </nav>
+        <h1 id='website-title'>M Irtefa</h1>
+    </header>
+    <div id='content'>
+        <div id='entry'>
+            <h1 class='entry-title'>
+                <a href='http://github.com/irtefa/sherlog' target='_blank'>Sherlog</a>
+            </h1>
+            <div id='time'>October 5, 2013 - October 9, 2013</div>
+            <!-- <img src='images/about.jpg'></img> -->
+            <div>
+                <p>
+                    I and <a id='para-link' href='www.linkedin.com/pub/stephen-lee/58/1b3/0' target='_blank'>Stephen Lee<a> initially started this project as an assignment for a <a id='para-link' href='http://courses.engr.illinois.edu/cs425/' target='_blank'>Distributed Systems</a> class. Things changed when I casually decided to put it up on <a id='para-link' href='http://news.ycombinator.com' target='_blank'>Hacker News</a>. Within a few hours, it was in the top ten most popular posts that day. None of my other projects is as popular as Sherlog (76 stars and counting!). I do have to confess though that the purpose of this project was not to propose something novel, rather it was intended to experiment with <a id='para-link' href='http://golang.org' target='_blank'>Go</a> and its famous <a id='para-link' href='https://gobyexample.com/goroutines' target='_blank'>go routines</a>.
+                </p>
+                <p>
+                    <a id='para-link' href='http://github.com/irtefa/sherlog' target='_blank'>Sherlog</a> is a distributed logging system that allows you to run system grep calls in all the machines in your system and returns the relevant matches back to the user. Grep is executed on each machine separately. The machines are independent in the sense that they do not wait for each other to complete the execution of Grep. The client receives the response as soon as a machine completes executing grep on its log. As the machines are not waiting for each other there is no blocking in the execution process.
+                </p>
+            </div>
+        </div>
+        <div id='entry'>
+            <h1 class='entry-title'>
+                <a href='http://irtefanoid.herokuapp.com' target='_blank'>Irtefanoid</a>
+            </h1>
+            <div id='time'>June 22, 2013 - June 23, 2013</div>
+            <img src='images/irtefanoid.png'></img>
+            <div>
+                <p>
+                    I started playing computer games when I was about 5 years old. I could not start the games on my own so, my dad used to start the games for me in his Windows 95 using MS DOS. One of the few games that I remember clearly having enjoyed was <a id='para-link' href='http://www.robots.ox.ac.uk/~north/Paranoid.html' target='_blank'>Paranoid by Bit-Bucket brothers</a>. I spent countless hours playing this game with my dad and younger brother. 
+                </p>
+                <p>
+                    I decided to build the first level of this game. The game is built with JavaScript and the canvas API from HTML5. You can play the game <a id='para-link' href='http://irtefanoid.herokuapp.com'>here</a>. I put up the on <a id='para-link' href='http://github.com/irtefa/paranoid'>Github</a>. Spoiler alert: The game is never ending (unless you are dead, of course!).
+                </p>
+            </div>
+        </div>
+        <div id='entry'>
+            <h1 class='entry-title'>
+                <a href='http://fitquo.herokuapp.com' target='_blank'>Fitquo</a>
+            </h1>
+            <div id='time'>December, 2012</div>
+            <img src='images/fitquo.png'></img>
+            <div>
+                <p>
+                  We created a social network for aspiring fitness enthusiasts, <a id='para-link'href='http://fitquo.herokuapp.com' target='_blank'>Fitquo</a>. Fitquo was selected as one of the <a href='https://wiki.engr.illinois.edu/display/cs411sp12/CS411+Hall+of+Fame' target='_blank'>best projects</a> out of 52 other projects in the class. It provides a common domain for fitness trainers and for people who want to get in shape. 
+                </p>
+                <p>
+                    We used <a id='para-link' href='http://www.tornadoweb.org/en/stable/' target='_blank'>Tornado</a> as our webserver, <a id='para-link' href='http://mysql.com' target='_blank'></a>MySQL as our backend database and <a id='para-link' href='http://redis.io/' target='_blank'>Redis</a> as a client side cache.
+                </p>
+            </div>
+        </div>
+        <div id='entry'>
+            <h1 class='entry-title'>
+                <a href='#' target='_blank'>Sentipede</a>
+            </h1>
+            <div id='time'>November 3, 2012</div>
+<!--             <img src='images/about.jpg'></img>
+ -->            <div>
+                <p>
+                A web-application to detect your mood over time and other parameters based on your Facebook data. Created in 24-hours for UIUC Facebook Hackathon 2012. The primary goal for this project was to learn basic sentiment analysis methods. We also wanted to be fluent in facebook's graph API. Frankly, this is not my proudest projects. As it was built in a very short period of time (less than 24 hours), most of the code is very hacky. Nevertheless, I, along with <a id='para-link' href='http://suharshs.com' target='_blank'>Suharsh Sivakumar</a>, <a id='para-link' href='http://github.com/koshroy' target='_blank'>Koushik Roy</a> and <a id='para-link' href='https://github.com/rishibajekal' target='_blank'>Rishi Bajekal</a> learned a lot about basic sentiment analysis and facebook's graph API from this project.
+                </p>
+                <p>
+                    We used <a id='para-link' href='http://www.tornadoweb.org/en/stable/' target='_blank'>Tornado</a> as our webserver, <a id='para-link' href='http://mongodb.org' target='_blank'>MongoDB</a> as our backend database and <a id='para-link' href='http://d3js.org/' target='_blank'>D3</a> as our client side JavaScript framework. You can find the code <a id='para-link' href='http://github.com/rishibajekal/facebook-mood-graphs' target='_blank'>here</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id='footer' class='sixteen columns alpha'>
+        <div id='footer-content'>
+            <p>Copyright 2010-2014 Mohd Irtefa<p>
+        </div>
+    </div>
 </body>
 </html>
